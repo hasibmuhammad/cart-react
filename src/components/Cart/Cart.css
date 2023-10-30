@@ -1,0 +1,35 @@
+.cart {
+  width: 300px;
+  max-height: 300px;
+  padding: 1rem;
+  background-color: green;
+  border-radius: 10px;
+  color: #fff;
+
+  overflow-y: scroll;
+
+  position: fixed;
+  top: 30%;
+  right: 0;
+}
+
+.cart ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+.cart-img {
+  width: 30px;
+}
+.product-name {
+  font-size: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.remove {
+  font-size: 10px;
+}

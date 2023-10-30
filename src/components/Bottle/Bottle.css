@@ -1,0 +1,23 @@
+.bottle {
+  border: 2px solid orange;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.badge {
+  background-color: green;
+  font-size: 10px;
+}
+.badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.bottle img {
+  width: 200px;
+}
+.cart-btn {
+  margin-top: 1rem;
+  width: 100%;
+  background-color: orange;
+}
