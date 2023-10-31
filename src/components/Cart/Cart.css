@@ -1,5 +1,5 @@
 .cart {
-  width: 300px;
+  max-width: 300px;
   max-height: 300px;
   padding: 1rem;
   background-color: green;
@@ -9,8 +9,8 @@
   overflow-y: scroll;
 
   position: fixed;
-  top: 30%;
   right: 0;
+  bottom: 0;
 }
 
 .cart ul {
@@ -28,8 +28,15 @@
 .cart-item {
   display: flex;
   justify-content: space-around;
+  gap: 1rem;
   align-items: center;
 }
 .remove {
   font-size: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .cart {
+    bottom: 10%;
+  }
 }

@@ -3,9 +3,9 @@ const Bottle = ({ bottle, handleAddToCart }) => {
   return (
     <div className="bottle">
       <img src={bottle.img} alt={bottle.name} />
-      <h3>
+      <h5>
         {bottle.name} - ${bottle.price}
-      </h3>
+      </h5>
       <div className="badges">
         <button className="badge">{bottle.category}</button>
         <button className="badge">{bottle.seller}</button>
